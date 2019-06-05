@@ -3,7 +3,7 @@ echo "we will install shadowsocks, So,you should know what it is do !"
 
 apt-get update && apt install shadowsocks
 
-echo "Now,please tell me parameters,in order to customize your config"
+echo "Now,please tell me some parameters,in order to customize your config"
 
 echo "Your current server host,like ip address or domain,please input: "
 
@@ -51,7 +51,7 @@ EOF
 
 ssserver -c ~/shadowsocks.json -d start
 
-echo -e "Congratulations! Let's enjoy it! "
+echo  "Congratulations! Let's enjoy it! "
 
 echo "Attention,important info: Server:$host ,Encrypt Method:rc4-md5,Port:8381,8382,8384,8385"
 
