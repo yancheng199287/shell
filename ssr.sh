@@ -49,6 +49,7 @@ cat>~/shadowsocks.json<<EOF
 }
 EOF
 
+ssserver -c ~/shadowsocks.json -d start
 
 echo -e "Congratulations! Let's enjoy it! "
 
