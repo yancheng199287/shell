@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "we will install shadowsocks, So,you should know what it is do !"
 
-apt-get update && apt install shadowsocks
+apt-get update && apt install shadowsocks -y
 
 echo "Now,please tell me some parameters,in order to customize your config"
 
