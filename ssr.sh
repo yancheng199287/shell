@@ -5,7 +5,7 @@ apt-get update && apt install shadowsocks -y
 
 echo "Now,please tell me some parameters,in order to customize your config"
 
-echo "Your current server host,like ip address or domain,please input: "
+echo "Your current server host,like ip address or domain,eg:localhost please input: "
 
 read host
 
@@ -23,7 +23,7 @@ cat>~/shadowsocks.json<<EOF
 {
     "server": "$host",
 
-    "local_address": "127.0.0.1",
+    "local_address": "localhost",
 
     "local_port":1080,
 
